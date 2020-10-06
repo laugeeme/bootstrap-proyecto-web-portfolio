@@ -1,8 +1,32 @@
-/* Test styles */
+.bg-primary {
+  background-color: #29292c !important; }
+
+.text-primary {
+  color: #ce757b !important; }
+
+.btn-primary {
+  background-color: #ce757b !important;
+  border-color: #a33a41 !important; }
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #c14f57 !important; }
+
+.btn-primary:active {
+  background-color: #a33a41 !important;
+  border-color: #7d2d32 !important; }
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(206, 117, 123, 0.5) !important; }
+
 html {
   font-size: 13px; }
 
 .card:hover {
   box-shadow: 0 0 10px #cccbcb; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=styles.css.map */

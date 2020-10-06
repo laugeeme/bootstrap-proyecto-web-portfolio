@@ -1,17 +1,68 @@
 //------------------------------
-//      COLORS
+//      COLOR PATTERN
 //-------------------------------
 
-$text: pink;
-$main: blue;
-$secondary: orange;
+$one: #29292c;
+$two: #ce757b;
+$three: #dfcd79;
+$four: #fdf8ed;
 
 
-/* Test styles */
-html{
-    font-size: 13px;
+
+//----------------------------------------
+//      OVERWRITING BOOTSTRAP STYLES
+//-----------------------------------------
+
+.bg-primary{
+    background-color: $one !important;
 }
 
-.card:hover{
-    box-shadow: 0 0 10px rgb(204, 203, 203);
+.text-primary{
+    color: $two !important;
+}
+
+.btn-primary{
+    background-color: $two !important;
+    border-color: darken($two, 20%) !important;
+    
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+    background-color: darken($two, 10%) !important;
+}
+
+.btn-primary:active{
+    background-color: darken($two, 20%) !important;
+    border-color: darken($two, 30%) !important;
+}
+
+.btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba($two, .5) !important;
+}
+
+//----------------------------------------
+//      DESIGN STYLES
+//-----------------------------------------
+
+
+html {
+  font-size: 13px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgb(204, 203, 203);
+}
+
+
+
+
+//------------------------------
+//      MEDIA-QUERIES
+//-------------------------------
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
