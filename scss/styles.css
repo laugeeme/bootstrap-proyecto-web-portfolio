@@ -1,4 +1,8 @@
-.encabezado {
-  display: flex; }
+/* Test styles */
+html {
+  font-size: 13px; }
+
+.card:hover {
+  box-shadow: 0 0 10px grey; }
 
 /*# sourceMappingURL=styles.css.map */
