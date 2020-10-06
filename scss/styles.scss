@@ -6,7 +6,7 @@ $one: #29292c;
 $two: #ce757b;
 $three: #dfcd79;
 $four: #fdf8ed;
-
+$text: #44484a;
 
 
 //----------------------------------------
@@ -48,6 +48,11 @@ $four: #fdf8ed;
 
 html {
   font-size: 13px;
+}
+
+body{
+    color: $text;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .card:hover {
